@@ -79,7 +79,7 @@
                                     <td>{{x.NoticeTime}}</td>
                                     <td>
                                         <a href="" data-toggle="modal" data-target="#{{x.FK_NoticeKind + x.PK_NoticeNo}}">
-                                            <span class="badge badge-secondary badge-danger" ng-if="false">New</span>【{{x.NoticeKindName}}】{{x.NoticeTitle}}
+                                            <span class="badge badge-secondary badge-danger" ng-show="'{{x.NoticeTime}}' > '{{RangDate}}'">New</span>【{{x.NoticeKindName}}】{{x.NoticeTitle}}
                                         </a>
                                     </td>
                                 </tr>
@@ -279,6 +279,19 @@
 
             //從後端取公告JSON
             $scope.userNotice = <%=Session["userNoticeJSON"]%>;
+
+            //======設定14天內之公告標示NEW====================            
+            var range = 100;
+            var nowDate = new Date();
+            var DifferenceDate =  new Date(nowDate.valueOf() - (range * 24 * 60 * 60 * 1000))
+            var yyyy = DifferenceDate.getFullYear();
+            var mm = DifferenceDate.getMonth()+1;
+            var dd = DifferenceDate.getDate();
+            $scope.RangDate = yyyy+'/'+ (mm>9 ? '' : '0') + mm+'/'+(dd>9 ? '' : '0') + dd;
+            //$scope.RangDate = true;
+            
+            console.log($scope.RangDate);
+            //======設定14天內之公告標示NEW====================
 
             //====處理公告分頁START=======
             //設定公告每頁最大筆數
