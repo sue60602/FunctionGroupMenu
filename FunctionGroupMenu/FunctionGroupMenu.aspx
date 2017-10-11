@@ -8,11 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <meta http-equiv="cache-control" content="no-cache" />
-    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
-<%--    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
-    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" />
-    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE11" />--%>
+    <%--<meta http-equiv="X-UA-Compatible" content="IE=9" />--%>
 
     <%--<script src="http://cdnjs.cloudflare.com/ajax/libs/json3/3.2.4/json3.min.js"></script>--%>
     
@@ -284,7 +280,7 @@
             //從後端取公告JSON
             $scope.userNotice = <%=Session["userNoticeJSON"]%>;
 
-            //====處理分頁START=======
+            //====處理公告分頁START=======
             //設定公告每頁最大筆數
             $scope.pageSize = 10;
             //計算共幾頁
@@ -334,7 +330,7 @@
             $scope.Next = function () {
                 $scope.selectPage($scope.selPage + 1);
             };
-            //====處理分頁END=======
+            //====處理公告分頁END=======
 
         });
 
