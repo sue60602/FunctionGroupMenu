@@ -1,0 +1,81 @@
+﻿body {
+    
+}
+
+* {
+    font-family:"微軟正黑體";
+}
+
+.title i {
+    margin-right:12px;
+}
+
+.title {
+    padding-bottom:10px;        
+    margin-bottom:20px;
+    border-bottom:solid 1px #DDDDDD;
+    color: #333333;
+}
+
+.header-fluid {
+    background-color: #004375;    
+
+    /*padding-top:12px;
+    padding-bottom:12px;*/
+    padding: 12px 0 12px 0;
+
+    margin-bottom:30px;    
+    box-shadow:#999999 0px 1px 5px;
+    /*border-bottom:5px solid #002643;*/
+    position:fixed;
+    z-index:9999;
+}
+
+.header-fluid h2 {    
+    color:#FFFFFF;
+}
+
+.user-info {
+    color:#FFFFFF;
+    font-size:16px;
+    line-height:1.4;
+}
+
+.sys-config {
+    font-size:35px;
+    color:#FFFFFF;
+}
+
+.footer-fluid{
+    background-color: #004375;
+    padding: 12px 0 12px 0;
+    margin-top:40px;
+    color:#FFFFFF;
+    text-align:center;
+    height:120px;
+}
+
+.url-group{
+    margin-top:5px;
+}
+
+.url-group i{
+    margin-right:5px;
+}
+.func-group{
+    margin-bottom:20px;
+}
+.func-img{    
+    height:7rem;    
+}
+.content{
+    padding-top:120px;
+}
+
+.modal-dialog{
+    top:100px;
+}
+
+a{
+    color:#000000;
+}
