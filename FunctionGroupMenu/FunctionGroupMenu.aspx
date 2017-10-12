@@ -280,18 +280,18 @@
             //從後端取公告JSON
             $scope.userNotice = <%=Session["userNoticeJSON"]%>;
 
-            //======設定14天內之公告標示NEW====================            
-            var range = 100;
+            //======設定5天內之公告標示NEW====================            
+            var rangeDay = 5;
             var nowDate = new Date();
-            var DifferenceDate =  new Date(nowDate.valueOf() - (range * 24 * 60 * 60 * 1000))
+            var DifferenceDate =  new Date(nowDate.valueOf() - (rangeDay * 24 * 60 * 60 * 1000))
             var yyyy = DifferenceDate.getFullYear();
             var mm = DifferenceDate.getMonth()+1;
             var dd = DifferenceDate.getDate();
+            //將日期格式調整為yyyy/mm/dd
             $scope.RangDate = yyyy+'/'+ (mm>9 ? '' : '0') + mm+'/'+(dd>9 ? '' : '0') + dd;
-            //$scope.RangDate = true;
             
-            console.log($scope.RangDate);
-            //======設定14天內之公告標示NEW====================
+            //console.log($scope.RangDate);
+            //======設定5天內之公告標示NEW====================
 
             //====處理公告分頁START=======
             //設定公告每頁最大筆數
