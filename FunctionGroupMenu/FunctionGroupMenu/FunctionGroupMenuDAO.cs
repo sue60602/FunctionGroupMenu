@@ -11,7 +11,8 @@ namespace FunctionGroupMenuSrc
     public class FunctionGroupMenuDAO
     {
         ESFAccEntities db = new ESFAccEntities();
-        //以使用者系統號尋找功能群組
+
+        //查詢功能群組
         public IQueryable<Pow_User_FuncGrp> getUserFunctionGrp(Expression<Func<Pow_User_FuncGrp, bool>> condition)
         {
             var result = from s1 in db.Pow_User_FuncGrp select s1;

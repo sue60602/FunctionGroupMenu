@@ -88,10 +88,10 @@
                         <!--分頁列-->
                         <nav aria-label="Page navigation example">
                             <ul class="pagination">
-                                <li class="page-item"><a class="page-link" ng-click="Previous()" href="#">上一頁</a></li>
+                                <li class="page-item"><a class="page-link" ng-click="Previous()" href="#"><<</a></li>
                                 <li class="page-item" ng-repeat="page in pageList" ng-class="{active: isActivePage(page)}">
                                     <a class="page-link" ng-click="selectPage(page)" href="#">{{page}}</a></li>
-                                <li class="page-item"><a class="page-link" ng-click="Next()" href="#">下一頁</a></li>
+                                <li class="page-item"><a class="page-link" ng-click="Next()" href="#">>></a></li>
                             </ul>
                         </nav>
 
@@ -281,7 +281,7 @@
             $scope.userNotice = <%=Session["userNoticeJSON"]%>;
 
             //======設定5天內之公告標示NEW====================            
-            var rangeDay = 5;
+            var rangeDay = 100;
             var nowDate = new Date();
             var DifferenceDate =  new Date(nowDate.valueOf() - (rangeDay * 24 * 60 * 60 * 1000))
             var yyyy = DifferenceDate.getFullYear();
@@ -295,7 +295,7 @@
 
             //====處理公告分頁START=======
             //設定公告每頁最大筆數
-            $scope.pageSize = 10;
+            $scope.pageSize = 8;
             //計算共幾頁
             $scope.pages = Math.ceil($scope.userNotice.length / $scope.pageSize);
             //最多列出5頁可選
