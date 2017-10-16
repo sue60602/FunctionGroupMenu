@@ -43,9 +43,9 @@
         </style>
 </head>
 <body ng-controller="customersCtrl">
-
+    <!--抬頭-->
     <div class="container-fluid header-fluid">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">            
                 <div class="col-xs-6 col-md-6 col-lg-6"><img src="images/wda_logo.png"></div>
                 <div class="col-xs-6 col-md-5 col-lg-5 user-info">
@@ -54,14 +54,14 @@
                     機關所屬：{{userInfo.UnitName_AD}}-{{userInfo.DptName_AD}}
                 </div>
                 <div class="col-xs-6 col-md-1 col-lg-1 ">
-                    <a href="{{sysURL}}" target="_blank" ng-if="group_0_display" class="sys-config"><i class="fa fa-cog"></i></a>                    
+                    <a href="{{sysURL}}" target="_blank" ng-if="group_0_display" class="sys-config" id="func_0"><i class="fa fa-cog"></i></a>                    
                 </div>
             </div>
         </div>
     </div>
 
     <%--內容START--%>
-    <div class="container content">       
+    <div class="container-fluid content">       
         <div class="row">
             <div class="col-12">
                 <div class="row">
@@ -106,8 +106,8 @@
                             <div class="col-3" ng-repeat="x in group_1_Layout">
                                 <img class="fund-img img-thumbnail" src="images/p{{x.PK_FuncGrpNo}}.jpeg"/>
                                 <div class="list-group url-group">
-                                    <a href="{{x.FuncGrpURL1}}" target="_blank" class="list-group-item list-group-item-action"><i class="fa fa-caret-right" aria-hidden="true"></i>{{x.FuncGrpName}}<span ng-if="x.FuncGrpURL2">-勻支</span></a>
-                                    <a href="{{x.FuncGrpURL2}}" target="_blank" class="list-group-item list-group-item-action" ng-if="x.FuncGrpURL2"><i class="fa fa-caret-right" aria-hidden="true"></i>{{x.FuncGrpName}}<span ng-if="x.FuncGrpURL2">-流用</span></a>
+                                    <a href="{{x.FuncGrpURL1}}" target="_blank" class="list-group-item list-group-item-action" id="func_{{x.PK_FuncGrpNo}}_1"><i class="fa fa-caret-right" aria-hidden="true"></i>{{x.FuncGrpName}}<span ng-if="x.FuncGrpURL2">-勻支</span></a>
+                                    <a href="{{x.FuncGrpURL2}}" target="_blank" class="list-group-item list-group-item-action" id="func_{{x.PK_FuncGrpNo}}_2" ng-if="x.FuncGrpURL2"><i class="fa fa-caret-right" aria-hidden="true"></i>{{x.FuncGrpName}}<span ng-if="x.FuncGrpURL2">-流用</span></a>
                                 </div> 
                             </div>
                         </div>
@@ -119,8 +119,8 @@
                             <div class="col-3" ng-repeat="x in group_2_Layout">
                                 <img class="func-img img-thumbnail" src="images/p{{x.PK_FuncGrpNo}}.jpeg"/>
                                 <div class="list-group url-group">
-                                    <a href="{{x.FuncGrpURL1}}" target="_blank" class="list-group-item list-group-item-action"><i class="fa fa-caret-right" aria-hidden="true"></i>{{x.FuncGrpName}}<span ng-if="x.FuncGrpURL2">-勻支</span></a>
-                                    <a href="{{x.FuncGrpURL2}}" target="_blank" class="list-group-item list-group-item-action" ng-if="x.FuncGrpURL2"><i class="fa fa-caret-right" aria-hidden="true"></i>{{x.FuncGrpName}}<span ng-if="x.FuncGrpURL2">-流用</span></a>
+                                    <a href="{{x.FuncGrpURL1}}" target="_blank" class="list-group-item list-group-item-action" id="func_{{x.PK_FuncGrpNo}}"><i class="fa fa-caret-right" aria-hidden="true"></i>{{x.FuncGrpName}}<span ng-if="x.FuncGrpURL2">-勻支</span></a>
+                                    <%--<a href="{{x.FuncGrpURL2}}" target="_blank" class="list-group-item list-group-item-action" id="func_{{x.PK_FuncGrpNo}}" ng-if="x.FuncGrpURL2"><i class="fa fa-caret-right" aria-hidden="true"></i>{{x.FuncGrpName}}<span ng-if="x.FuncGrpURL2">-流用</span></a>--%>
                                 </div> 
                             </div>
                         </div>
@@ -132,8 +132,8 @@
                             <div class="col-3" ng-repeat="x in group_3_Layout">
                                 <img class="func-img img-thumbnail" src="images/p{{x.PK_FuncGrpNo}}.jpeg"/>
                                 <div class="list-group url-group">
-                                    <a href="{{x.FuncGrpURL1}}" target="_blank" class="list-group-item list-group-item-action"><i class="fa fa-caret-right" aria-hidden="true"></i>{{x.FuncGrpName}}<span ng-if="x.FuncGrpURL2">-勻支</span></a>
-                                    <a href="{{x.FuncGrpURL2}}" target="_blank" class="list-group-item list-group-item-action" ng-if="x.FuncGrpURL2"><i class="fa fa-caret-right" aria-hidden="true"></i>{{x.FuncGrpName}}<span ng-if="x.FuncGrpURL2">-流用</span></a>
+                                    <a href="{{x.FuncGrpURL1}}" target="_blank" class="list-group-item list-group-item-action" id="func_{{x.PK_FuncGrpNo}}"><i class="fa fa-caret-right" aria-hidden="true"></i>{{x.FuncGrpName}}<span ng-if="x.FuncGrpURL2">-勻支</span></a>
+                                    <%--<a href="{{x.FuncGrpURL2}}" target="_blank" class="list-group-item list-group-item-action" id="func_{{x.PK_FuncGrpNo}}" ng-if="x.FuncGrpURL2"><i class="fa fa-caret-right" aria-hidden="true"></i>{{x.FuncGrpName}}<span ng-if="x.FuncGrpURL2">-流用</span></a>--%>
                                 </div> 
                             </div>
                         </div>

@@ -176,132 +176,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EF\Cash_Check.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Cash_PTranInfo.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Code_Dpt.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Code_Dpt_Set.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Code_Dsub.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Code_Dsub_Kind.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Code_Dsub_Set.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Code_Mplan.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Code_Mplan_Kind.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Code_Mplan_Set.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Code_Plan.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Code_Sub.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Code_Sub_Set.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Code_Usage.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Code_Usage_Set.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Conf_BgtSource.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Conf_CaseListKind.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Conf_ExpenseUsage.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Conf_Fund.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Conf_SubCity.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Conf_Unit.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Conf_VisaKind.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Cont_BgtState.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Cont_Fas.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Cont_FasAdj.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Cont_FasAdjDetail.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Cont_FasAdjDetailLog.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Cont_Mplan.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Cont_Usage.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Data_Bgt.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Data_BgtIn.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Data_PayeeRecord.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Data_Phrase.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Data_VisaAbate.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Data_VisaD.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Data_VisaM.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Data_VouAbate.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Data_VouCheck.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Data_VouDetail.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Data_VouInvoice.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Data_VouMain.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Data_VouPayee.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="EF\ESFAccModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -317,30 +191,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ESFAccModel.edmx</DependentUpon>
     </Compile>
-    <Compile Include="EF\Lck_Sum.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Lck_Sum_Ver.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Lck_Unit.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Lck_UnitFas.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Lck_UnitFas_Ver.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Lck_Unit_Ver.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Merge_Visa.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Merge_Vou.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="EF\Notice_Detail.cs">
       <DependentUpon>ESFAccModel.tt</DependentUpon>
     </Compile>
@@ -350,19 +200,7 @@
     <Compile Include="EF\Notice_Main.cs">
       <DependentUpon>ESFAccModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="EF\Notice_Vou.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Pow_AccTmpUser.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Pow_Func.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="EF\Pow_FuncGrp.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Pow_Func_FuncGrp.cs">
       <DependentUpon>ESFAccModel.tt</DependentUpon>
     </Compile>
     <Compile Include="EF\Pow_Level.cs">
@@ -374,31 +212,10 @@
     <Compile Include="EF\Pow_User_DptSet.cs">
       <DependentUpon>ESFAccModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="EF\Pow_User_Func.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="EF\Pow_User_FuncGrp.cs">
       <DependentUpon>ESFAccModel.tt</DependentUpon>
     </Compile>
     <Compile Include="EF\Pow_User_Level.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Sum_InPlan.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Sum_InPlanLink.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Sum_OutPlanLink.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Swap_TranCaseDetail.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\Swap_TranCaseNo.cs">
-      <DependentUpon>ESFAccModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF\sysdiagrams.cs">
       <DependentUpon>ESFAccModel.tt</DependentUpon>
     </Compile>
     <Compile Include="FunctionGroupMenu.aspx.cs">

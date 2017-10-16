@@ -25,75 +25,14 @@ namespace FunctionGroupMenu.EF
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Cash_Check> Cash_Check { get; set; }
-        public virtual DbSet<Cash_PTranInfo> Cash_PTranInfo { get; set; }
-        public virtual DbSet<Code_Dpt> Code_Dpt { get; set; }
-        public virtual DbSet<Code_Dpt_Set> Code_Dpt_Set { get; set; }
-        public virtual DbSet<Code_Dsub> Code_Dsub { get; set; }
-        public virtual DbSet<Code_Dsub_Kind> Code_Dsub_Kind { get; set; }
-        public virtual DbSet<Code_Dsub_Set> Code_Dsub_Set { get; set; }
-        public virtual DbSet<Code_Mplan> Code_Mplan { get; set; }
-        public virtual DbSet<Code_Mplan_Kind> Code_Mplan_Kind { get; set; }
-        public virtual DbSet<Code_Mplan_Set> Code_Mplan_Set { get; set; }
-        public virtual DbSet<Code_Plan> Code_Plan { get; set; }
-        public virtual DbSet<Code_Sub> Code_Sub { get; set; }
-        public virtual DbSet<Code_Sub_Set> Code_Sub_Set { get; set; }
-        public virtual DbSet<Code_Usage> Code_Usage { get; set; }
-        public virtual DbSet<Code_Usage_Set> Code_Usage_Set { get; set; }
-        public virtual DbSet<Conf_BgtSource> Conf_BgtSource { get; set; }
-        public virtual DbSet<Conf_CaseListKind> Conf_CaseListKind { get; set; }
-        public virtual DbSet<Conf_ExpenseUsage> Conf_ExpenseUsage { get; set; }
-        public virtual DbSet<Conf_Fund> Conf_Fund { get; set; }
-        public virtual DbSet<Conf_SubCity> Conf_SubCity { get; set; }
-        public virtual DbSet<Conf_Unit> Conf_Unit { get; set; }
-        public virtual DbSet<Conf_VisaKind> Conf_VisaKind { get; set; }
-        public virtual DbSet<Cont_BgtState> Cont_BgtState { get; set; }
-        public virtual DbSet<Cont_Fas> Cont_Fas { get; set; }
-        public virtual DbSet<Cont_FasAdj> Cont_FasAdj { get; set; }
-        public virtual DbSet<Cont_FasAdjDetail> Cont_FasAdjDetail { get; set; }
-        public virtual DbSet<Cont_FasAdjDetailLog> Cont_FasAdjDetailLog { get; set; }
-        public virtual DbSet<Cont_Mplan> Cont_Mplan { get; set; }
-        public virtual DbSet<Cont_Usage> Cont_Usage { get; set; }
-        public virtual DbSet<Data_Bgt> Data_Bgt { get; set; }
-        public virtual DbSet<Data_BgtIn> Data_BgtIn { get; set; }
-        public virtual DbSet<Data_PayeeRecord> Data_PayeeRecord { get; set; }
-        public virtual DbSet<Data_Phrase> Data_Phrase { get; set; }
-        public virtual DbSet<Data_VisaAbate> Data_VisaAbate { get; set; }
-        public virtual DbSet<Data_VisaD> Data_VisaD { get; set; }
-        public virtual DbSet<Data_VisaM> Data_VisaM { get; set; }
-        public virtual DbSet<Data_VouAbate> Data_VouAbate { get; set; }
-        public virtual DbSet<Data_VouCheck> Data_VouCheck { get; set; }
-        public virtual DbSet<Data_VouDetail> Data_VouDetail { get; set; }
-        public virtual DbSet<Data_VouInvoice> Data_VouInvoice { get; set; }
-        public virtual DbSet<Data_VouMain> Data_VouMain { get; set; }
-        public virtual DbSet<Data_VouPayee> Data_VouPayee { get; set; }
-        public virtual DbSet<Lck_Sum> Lck_Sum { get; set; }
-        public virtual DbSet<Lck_Sum_Ver> Lck_Sum_Ver { get; set; }
-        public virtual DbSet<Lck_Unit> Lck_Unit { get; set; }
-        public virtual DbSet<Lck_Unit_Ver> Lck_Unit_Ver { get; set; }
-        public virtual DbSet<Lck_UnitFas> Lck_UnitFas { get; set; }
-        public virtual DbSet<Lck_UnitFas_Ver> Lck_UnitFas_Ver { get; set; }
-        public virtual DbSet<Merge_Visa> Merge_Visa { get; set; }
-        public virtual DbSet<Merge_Vou> Merge_Vou { get; set; }
         public virtual DbSet<Notice_Detail> Notice_Detail { get; set; }
         public virtual DbSet<Notice_Kind> Notice_Kind { get; set; }
         public virtual DbSet<Notice_Main> Notice_Main { get; set; }
-        public virtual DbSet<Notice_Vou> Notice_Vou { get; set; }
-        public virtual DbSet<Pow_AccTmpUser> Pow_AccTmpUser { get; set; }
-        public virtual DbSet<Pow_Func> Pow_Func { get; set; }
-        public virtual DbSet<Pow_Func_FuncGrp> Pow_Func_FuncGrp { get; set; }
         public virtual DbSet<Pow_FuncGrp> Pow_FuncGrp { get; set; }
         public virtual DbSet<Pow_Level> Pow_Level { get; set; }
         public virtual DbSet<Pow_User> Pow_User { get; set; }
         public virtual DbSet<Pow_User_DptSet> Pow_User_DptSet { get; set; }
-        public virtual DbSet<Pow_User_Func> Pow_User_Func { get; set; }
         public virtual DbSet<Pow_User_FuncGrp> Pow_User_FuncGrp { get; set; }
         public virtual DbSet<Pow_User_Level> Pow_User_Level { get; set; }
-        public virtual DbSet<Sum_InPlan> Sum_InPlan { get; set; }
-        public virtual DbSet<Sum_InPlanLink> Sum_InPlanLink { get; set; }
-        public virtual DbSet<Sum_OutPlanLink> Sum_OutPlanLink { get; set; }
-        public virtual DbSet<Swap_TranCaseDetail> Swap_TranCaseDetail { get; set; }
-        public virtual DbSet<Swap_TranCaseNo> Swap_TranCaseNo { get; set; }
-        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
     }
 }

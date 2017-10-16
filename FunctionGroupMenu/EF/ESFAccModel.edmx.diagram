@@ -4,77 +4,16 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="449d8e19a4d4423da427f395f73464ea" Name="Diagram1">
-        <EntityTypeShape EntityType="ESFAccModel.Cash_Check" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Cash_PTranInfo" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Code_Dpt" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Code_Dpt_Set" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Code_Dsub" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Code_Dsub_Kind" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Code_Dsub_Set" Width="1.5" PointX="6.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Code_Mplan" Width="1.5" PointX="6.75" PointY="6.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Code_Mplan_Kind" Width="1.5" PointX="2.75" PointY="7.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Code_Mplan_Set" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Code_Plan" Width="1.5" PointX="8.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Code_Sub" Width="1.5" PointX="8.75" PointY="7.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Code_Sub_Set" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Code_Usage" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Code_Usage_Set" Width="1.5" PointX="2.75" PointY="10.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Conf_BgtSource" Width="1.5" PointX="10.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Conf_CaseListKind" Width="1.5" PointX="4.75" PointY="10.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Conf_ExpenseUsage" Width="1.5" PointX="10.75" PointY="6.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Conf_Fund" Width="1.5" PointX="10.75" PointY="9.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Conf_SubCity" Width="1.5" PointX="6.75" PointY="11.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Conf_Unit" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Conf_VisaKind" Width="1.5" PointX="12.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Cont_BgtState" Width="1.5" PointX="12.75" PointY="7.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Cont_Fas" Width="1.5" PointX="8.75" PointY="12.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Cont_FasAdj" Width="1.5" PointX="10.75" PointY="12.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Cont_FasAdjDetail" Width="1.5" PointX="12.75" PointY="11.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Cont_FasAdjDetailLog" Width="1.5" PointX="0.75" PointY="13.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Cont_Mplan" Width="1.5" PointX="2.75" PointY="13.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Cont_Usage" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Data_Bgt" Width="1.5" PointX="14.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Data_BgtIn" Width="1.5" PointX="4.75" PointY="14.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Data_PayeeRecord" Width="1.5" PointX="14.75" PointY="9.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Data_Phrase" Width="1.5" PointX="6.75" PointY="15.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Data_VisaAbate" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Data_VisaD" Width="1.5" PointX="16.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Data_VisaM" Width="1.5" PointX="8.75" PointY="16.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Data_VouAbate" Width="1.5" PointX="10.75" PointY="16.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Data_VouCheck" Width="1.5" PointX="16.75" PointY="12.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Data_VouDetail" Width="1.5" PointX="12.75" PointY="16.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Data_VouInvoice" Width="1.5" PointX="0.75" PointY="17.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Data_VouMain" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Data_VouPayee" Width="1.5" PointX="18.75" PointY="7.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Lck_Sum" Width="1.5" PointX="14.75" PointY="18.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Lck_Sum_Ver" Width="1.5" PointX="18.75" PointY="15.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Lck_Unit" Width="1.5" PointX="16.75" PointY="18.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Lck_Unit_Ver" Width="1.5" PointX="18.75" PointY="18.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Lck_UnitFas" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Lck_UnitFas_Ver" Width="1.5" PointX="2.75" PointY="20.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Merge_Visa" Width="1.5" PointX="20.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Merge_Vou" Width="1.5" PointX="4.75" PointY="20.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Notice_Detail" Width="1.5" PointX="6.75" PointY="20.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Notice_Kind" Width="1.5" PointX="8.75" PointY="20.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Notice_Main" Width="1.5" PointX="20.75" PointY="9.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Notice_Vou" Width="1.5" PointX="20.75" PointY="13.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Pow_AccTmpUser" Width="1.5" PointX="20.75" PointY="17.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Pow_Func" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Pow_Func_FuncGrp" Width="1.5" PointX="22.75" PointY="5.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Pow_FuncGrp" Width="1.5" PointX="22.75" PointY="8.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Pow_Level" Width="1.5" PointX="22.75" PointY="12.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Pow_User" Width="1.5" PointX="22.75" PointY="15.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Pow_User_DptSet" Width="1.5" PointX="18.75" PointY="22.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Pow_User_Func" Width="1.5" PointX="20.75" PointY="22.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Pow_User_FuncGrp" Width="1.5" PointX="22.75" PointY="21.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Pow_User_Level" Width="1.5" PointX="6.75" PointY="23.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Sum_InPlan" Width="1.5" PointX="8.75" PointY="23.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Sum_InPlanLink" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Sum_OutPlanLink" Width="1.5" PointX="0.75" PointY="24.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Swap_TranCaseDetail" Width="1.5" PointX="24.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.Swap_TranCaseNo" Width="1.5" PointX="24.75" PointY="8.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ESFAccModel.sysdiagrams" Width="1.5" PointX="10.75" PointY="24.75" IsExpanded="true" />
+      <Diagram DiagramId="449d8e19a4d4423da427f395f73464ea" Name="Diagram1" ZoomLevel="65">
+        <EntityTypeShape EntityType="ESFAccModel.Notice_Detail" Width="1.5" PointX="15.375" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ESFAccModel.Notice_Kind" Width="1.5" PointX="17.375" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ESFAccModel.Notice_Main" Width="1.5" PointX="19.5" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ESFAccModel.Pow_FuncGrp" Width="1.5" PointX="16.25" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ESFAccModel.Pow_Level" Width="1.5" PointX="22.125" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ESFAccModel.Pow_User" Width="1.5" PointX="18.5" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ESFAccModel.Pow_User_DptSet" Width="1.875" PointX="13.25" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ESFAccModel.Pow_User_FuncGrp" Width="2.25" PointX="13.5" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ESFAccModel.Pow_User_Level" Width="1.5" PointX="20.125" PointY="11.75" IsExpanded="true" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
